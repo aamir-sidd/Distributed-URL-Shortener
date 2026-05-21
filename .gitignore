@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment configurations containing secrets
+.env
+
+# Local logs and documentation (User requested)
+CHANGELOG.md
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing and IDEs
+.pytest_cache/
+.vscode/
+.idea/
